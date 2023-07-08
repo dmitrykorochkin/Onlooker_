@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
       delay: 5000
     },
     breakpoints: {
-      768: {
+      769: {
         slidesPerView: 3,
         spaceBetween: 40
       }
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
 
-  if (window.innerWidth <= 767) {
+  if (window.innerWidth <= 768) {
     const swiper3 = new Swiper("#swiper3", {
       slidesPerView: 1,
       spaceBetween: 40,
