@@ -14569,7 +14569,7 @@ input:checked + .slider:before {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 31.1rem;
+  width: 31.9rem;
   height: 6.4rem;
   padding: 1rem 3.4rem 1rem 4.4rem;
   border: 0.1rem solid #FFFFFF;
@@ -14667,8 +14667,11 @@ input:checked + .slider:before {
 }
 
 .certificate__one-icon {
+  width: 3.2rem;
+  height: 4.6rem;
   fill: #fff;
   margin-right: 1.3rem;
+  margin-top: 1rem;
 }
 
 .certificate__img {
