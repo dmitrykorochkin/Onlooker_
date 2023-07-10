@@ -12170,6 +12170,7 @@ input:checked + .slider:before {
   background: linear-gradient(0deg, #131313, #131313), #FFFFFF;
   border-radius: 8rem;
 }
+
 .modal__additional-close img {
   width: 1.5rem;
   height: 1.5rem;
@@ -12188,13 +12189,16 @@ input:checked + .slider:before {
 
 @media (max-width: 810px) {
   .modal__additional {
-    top: 40%;
+    top: 50%;
   }
 }
 @media (max-width: 48em) {
+  .modal__additional-close {
+    right: 2rem;
+  }
   .modal__additional {
     width: 60rem;
-    height: 74rem;
+    height: 76rem;
   }
   .modal__additional-text {
     font-size: 1.8rem;
@@ -14178,9 +14182,9 @@ input:checked + .slider:before {
   transition: 0.3s;
   border: none;
 }
-.answerblock__icon rect {
+/* .answerblock__icon rect {
   stroke: none;
-}
+} */
 
 .answerblock__icon-close {
   margin-right: 1rem;
@@ -14191,8 +14195,8 @@ input:checked + .slider:before {
 
 @media (max-width: 48em) {
   .answerblock__icon-close {
-    width: 4rem;
-    height: 4rem;
+    width: 2rem;
+    height: 2rem;
   }
 }
 .answerblock__item-title {
@@ -15666,6 +15670,7 @@ input:checked + .slider:before {
   .offer__item {
     width: 50rem;
     margin-left: 5rem;
+    height: 10rem;
   }
   .offer__item-text {
     font-size: 2.2rem;
