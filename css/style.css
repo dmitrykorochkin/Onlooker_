@@ -8875,7 +8875,7 @@ input:hover {
 .modal__adapter-close {
   position: absolute;
   top: 1rem;
-  right: -5rem;
+  right: 12rem;
   width: 4rem;
   height: 4rem;
   background: -webkit-gradient(linear, left bottom, left top, from(#131313), to(#131313)), #FFFFFF;
