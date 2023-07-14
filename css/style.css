@@ -15908,6 +15908,17 @@ input:checked + .slider:before {
     width: 60rem;
     height: auto;
     padding: 3rem 1.8rem;
+    flex-direction: row;
+  }
+  .offer__wrap-one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.offer__wrap-text {
+  text-align: start;
+}
   }
   .offer__wrap-text {
     font-size: 2rem;
@@ -15992,6 +16003,29 @@ input:checked + .slider:before {
 }
 
 @media (max-width: 48em) {
+  .offer__wrap-icon1 {
+    width: 8.8rem;
+    height: 8.7rem;
+    margin-right: 2rem;
+  }
+  
+  .offer__wrap-icon2 {
+    width: 7.3rem;
+    height: 8.7rem;
+    margin-right: 2rem;
+  }
+  
+  .offer__wrap-icon3 {
+    width: 6.3rem;
+    height: 8.6rem;
+    margin-right: 2rem;
+  }
+  
+  .offer__wrap-icon4 {
+    width: 8.7rem;
+    height: 8.7rem;
+    margin-right: 2rem;
+  }
   .offer__icon {
     width: 4.7rem;
     height: 4.4rem;
