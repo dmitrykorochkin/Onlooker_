@@ -5173,6 +5173,7 @@ input:hover {
 @media (max-width: 48em) {
   .label__name {
     font-size: 2.4rem;
+    margin-bottom: 1.4rem;
   }
 }
 .form__footer {
@@ -5303,6 +5304,12 @@ input:hover {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 140%;
+}
+
+@media (max-width:48em) {
+  .form__tag-title  {
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -10380,12 +10387,18 @@ input:hover {
 .equipment__item:hover {
   color: rgb(6, 176, 161);
   cursor: default;
+  font-weight: 700;
+  
 }
 .equipment__item:hover .equipment__number {
   background: rgb(6, 176, 161);
   color: #fff;
   border: rgb(6, 176, 161);
 }
+.equipment__item:hover .equipment__heading {
+  font-weight: 700;
+}
+
 
 .equipment__number {
   display: inline-block;
@@ -10903,7 +10916,7 @@ input:hover {
     -ms-flex-direction: column;
     flex-direction: column;
     position: absolute;
-    bottom: 3rem;
+    bottom: 1rem;
     left: 2rem;
   }
 }
@@ -12275,7 +12288,7 @@ input:checked + .slider:before {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 24.5rem;
+  width: 28.5rem;
   height: 9.8rem;
   padding: 0 1.5rem;
   background: -o-linear-gradient(174.02deg, #121212 3.53%, #181818 97.46%), #121212;
@@ -12295,7 +12308,7 @@ input:checked + .slider:before {
     font-size: 2.5rem;
   }
   .card {
-    width: 25.5rem;
+    width: 28.5rem;
   }
 }
 .payment__cash-title {
@@ -14667,7 +14680,7 @@ input:checked + .slider:before {
 }
 
 .certificate__one-icon {
-  width: 3.2rem;
+  width: 3.8rem;
   height: 4.6rem;
   fill: #fff;
   margin-right: 1.3rem;
@@ -14767,6 +14780,11 @@ input:checked + .slider:before {
   }
 }
 @media (max-width: 48em) {
+
+  .modal__close-img {
+    right: 7rem;
+    top: 4rem;
+  }
   .modal__content {
     margin: 0;
     width: 63rem;
