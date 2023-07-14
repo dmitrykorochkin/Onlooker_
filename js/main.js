@@ -32,10 +32,11 @@ document.addEventListener("DOMContentLoaded", function() {
     const swiper3 = new Swiper("#swiper3", {
       slidesPerView: 1,
       spaceBetween: 40,
-
+  
       pagination: {
-        el: ".swiper-pagination",
-        type: "bullets"
+        // el: ".swiper-pagination",
+        type: "bullets",
+        clickable: true
       },
       navigation: {
         nextEl: ".swiper-button-next",
@@ -44,9 +45,11 @@ document.addEventListener("DOMContentLoaded", function() {
       },
       autoplay: {
         delay: 5000
-      }
+      },
+
     });
   }
+  
     const swiper2 = new Swiper("#swiper2", {
       slidesPerView: 1,
       spaceBetween: 40,
