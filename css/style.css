@@ -2927,19 +2927,19 @@ img {
   .camers .swiper-button-next {
     display: block;
   }
-  .camers .swiper-button-next svg {
+  /* .camers .swiper-button-next svg {
     width: 1rem;
     height: 3rem;
     margin: 0.7rem 1.7rem;
-  }
+  } */
   .camers .swiper-button-prev {
     display: block;
   }
-  .camers .swiper-button-prev svg {
+  /* .camers .swiper-button-prev svg {
     width: 1rem;
     height: 3rem;
     margin: 0.3rem 1.3rem;
-  }
+  } */
   .camers .swiper-slide {
     width: 45.6rem;
   }
@@ -14684,7 +14684,6 @@ input:checked + .slider:before {
   height: 4.6rem;
   fill: #fff;
   margin-right: 1.3rem;
-  margin-top: 1rem;
 }
 
 .certificate__img {
