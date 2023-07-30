@@ -14620,6 +14620,8 @@ input:checked + .slider:before {
   line-height: 122%;
 }
 
+
+
 @media (max-width: 821px) {
   .certificate__one {
     width: 32.1rem;
@@ -14632,7 +14634,7 @@ input:checked + .slider:before {
 }
 @media (max-width: 48em) {
   .certificate__one {
-    width: 59.1rem;
+    width: 53.1rem;
     height: 9.4rem;
     padding: 1rem 1.4rem 1rem 1.4rem;
     -webkit-box-pack: center;
