@@ -5317,6 +5317,9 @@ input:hover {
   .form__tags {
     max-width: 60rem;
   }
+  .form__tag-title {
+    font-size: 2rem;
+  }
 }
 @media (max-width: 48em) {
   .form__tags {
@@ -5337,7 +5340,7 @@ input:hover {
   }
   .form__tag {
     margin-right: 1rem;
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem;
   }
 }
 .coldstart {
@@ -14577,7 +14580,7 @@ input:checked + .slider:before {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 31.1rem;
+  width: 32rem;
   height: 6.4rem;
   padding: 1rem 3.4rem 1rem 4.4rem;
   border: 0.1rem solid #FFFFFF;
@@ -14615,7 +14618,7 @@ input:checked + .slider:before {
 }
 @media (max-width: 48em) {
   .certificate__one {
-    width: 59.1rem;
+    width: 53rem;
     height: 9.4rem;
     padding: 1rem 1.4rem 1rem 1.4rem;
     -webkit-box-pack: center;
@@ -14745,11 +14748,11 @@ input:checked + .slider:before {
   padding-left: 5rem;
 }
 .modal__close-img {
-  width: 2rem;
-  height: 2rem;
+  width: 4rem;
+  height: 4rem;
   position: absolute;
-  top: 0rem;
-  right: -20rem;
+  top: 5rem;
+  right: 6rem;
   -webkit-filter: invert(34%) sepia(13%) saturate(20%) hue-rotate(20deg) brightness(92%) contrast(85%);
   filter: invert(34%) sepia(13%) saturate(20%) hue-rotate(20deg) brightness(92%) contrast(85%);
 }
