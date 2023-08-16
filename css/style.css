@@ -5112,8 +5112,24 @@ input:hover {
   overflow: hidden;
 }
 
+
+
 .form__tag-img svg {
   margin-right: 0.7rem;
+
+
+}
+
+@media (max-width:48em) {
+  .form__tag-img svg {
+    width: 4rem;
+    height: 4rem;
+  
+  }
+  .form__tag-img3 svg {
+    width: 6rem;
+    height: 4rem;
+  }
 }
 
 .form__img-bg3 {
@@ -5318,7 +5334,7 @@ input:hover {
     max-width: 60rem;
   }
   .form__tag-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 @media (max-width: 48em) {
