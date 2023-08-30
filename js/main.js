@@ -12,9 +12,9 @@ document.addEventListener("DOMContentLoaded", function() {
       el: ".swiper-pagination",
       type: "bullets"
     },
-    autoplay: {
-      delay: 5000
-    },
+    // autoplay: {
+    //   delay: 5000
+    // },
     breakpoints: {
       769: {
         slidesPerView: 3,
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
-      hideOnClick: true
+      
     }
   });
 

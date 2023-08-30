@@ -11662,8 +11662,8 @@ input:checked + .slider:before {
   position: absolute;
   width: 4rem;
   height: 4rem;
-  top: 63rem;
-  left: -8rem;
+  top: 25rem;
+  left: 0rem;
   cursor: pointer;
   border-radius: 4rem;
   background-color: #fff;
@@ -11688,8 +11688,8 @@ input:checked + .slider:before {
   position: absolute;
   width: 4rem;
   height: 4rem;
-  top: 63rem;
-  right: -8rem;
+  top: 25rem;
+  right: 0rem;
   cursor: pointer;
   border-radius: 4rem;
   background-color: #fff;
